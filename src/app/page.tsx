@@ -23,7 +23,7 @@ export default function Home() {
         <header className='flex justify-between items-center mb-16'>
           <div className='text-2xl font-bold'>Task Manager</div>
           <div className='space-x-4'>
-            <Link href='/login'>
+            <Link href='/auth/login'>
               <Button
                 variant='outline'
                 className='text-white border-white hover:bg-white/10'
@@ -31,7 +31,7 @@ export default function Home() {
                 Login
               </Button>
             </Link>
-            <Link href='/register'>
+            <Link href='/auth/register'>
               <Button
                 variant='outline'
                 className='text-white border-white hover:bg-white/10'

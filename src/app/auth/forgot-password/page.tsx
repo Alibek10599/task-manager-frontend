@@ -107,7 +107,7 @@ export default function ForgotPassword() {
 
               <div className='text-center'>
                 <Link
-                  href='/login'
+                  href='/auth/login'
                   className='font-medium text-primary hover:text-primary-dark'
                 >
                   Back to login
